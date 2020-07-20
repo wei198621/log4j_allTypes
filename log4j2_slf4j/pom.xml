@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.tz.leo.log</groupId>
+    <artifactId>log4j2_slf4j</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>log4j2_slf4j</name>
+    <!-- FIXME change it to the project's website -->
+    <url>http://www.example.com</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+        <log4j2.version>2.11.2</log4j2.version>    <!--  版本必须在2.1以上，是log4j2的核心包-->
+        <slf4j.version>1.7.28</slf4j.version>      <!--  2020年最新版本2.0.0 alpha 使用1.7以上版本即可 -->
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!--
+
+            2、 依赖
+            日志的环境依赖总共有4部分，分别是 2.1  slf4j接口部分， 2.2 log4j2的日志框架实现部分(3个)， 2.3 log4j2异步日志插件部分  2.4 slf4j与log4j2的桥接部分。
+            part         包名 	            作用
+            2.1      slf4j-api 	        目前的版本1.7就可。slf4j的接口包，我们对日志进行的所有操作都用的是这个包的API
+            2.2      log4j-core 	    版本必须在2.1以上，是log4j2的核心包
+            2.2      log4j-api 	        版本与核心包一致，log4j2的接口包，用来直接调用log4j2框架的，必须导入，不然无法与slf4j对接
+            2.2      log4j-web 	        版本与核心包一致，用于web项目的log4j2，阻止web项目出现警告
+            2.3      com.lmax.disruptor 版本随意，开启log4j2的异步日志记录的功能
+            2.4      log4j-slf4j-impl 	版本与核心包一致，用于slf4j与log4j对接，即用slf4j的接口实现操作日志
+
+        -->
+
+
+        <!--2.1 slf4j-api-->
+        <!--  https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+
+
+        <!--2.2      log4j-core   log4j-api   log4j-web 	  -->
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j2.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>${log4j2.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-web -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-web</artifactId>
+            <version>${log4j2.version}</version>
+        </dependency>
+
+        <!--2.3      com.lmax.disruptor-->
+        <!-- https://mvnrepository.com/artifact/com.lmax/disruptor -->
+        <dependency>
+            <groupId>com.lmax</groupId>
+            <artifactId>disruptor</artifactId>
+            <version>3.4.2</version>
+        </dependency>
+
+
+        <!--  2.4      log4j-slf4j-impl  -->
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+            <version>${log4j2.version}</version>
+           <!-- <scope>runtime</scope>-->
+        </dependency>
+
+    </dependencies>
+
+    <build>
+    </build>
+</project>

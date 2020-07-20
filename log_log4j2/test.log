@@ -1,0 +1,55 @@
+17:27:42.507 DEBUG com.tz.leo.log.App 18 main - Log4j2__调试debug信息
+17:27:42.522 INFO  com.tz.leo.log.App 19 main - Log4j2__普通Info信息
+17:27:42.522 WARN  com.tz.leo.log.App 20 main - Log4j2__警告warn信息
+17:27:42.523 ERROR com.tz.leo.log.App 21 main - Log4j2__报错error信息
+17:27:42.523 FATAL com.tz.leo.log.App 22 main - Log4j2__严重错误fatal信息
+17:27:42.524 DEBUG com.tz.leo.log.App 27 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.524 DEBUG com.tz.leo.log.App 28 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.525 DEBUG com.tz.leo.log.App 29 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.525 DEBUG com.tz.leo.log.App 30 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.525 DEBUG com.tz.leo.log.App 31 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.525 DEBUG com.tz.leo.log.App 27 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.526 DEBUG com.tz.leo.log.App 28 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.526 DEBUG com.tz.leo.log.App 29 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.526 DEBUG com.tz.leo.log.App 30 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.527 DEBUG com.tz.leo.log.App 31 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.527 DEBUG com.tz.leo.log.App 27 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.527 DEBUG com.tz.leo.log.App 28 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.528 DEBUG com.tz.leo.log.App 29 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.528 DEBUG com.tz.leo.log.App 30 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.528 DEBUG com.tz.leo.log.App 31 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.529 DEBUG com.tz.leo.log.App 27 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.529 DEBUG com.tz.leo.log.App 28 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.529 DEBUG com.tz.leo.log.App 29 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.530 DEBUG com.tz.leo.log.App 30 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.530 DEBUG com.tz.leo.log.App 31 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.530 DEBUG com.tz.leo.log.App 27 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.531 DEBUG com.tz.leo.log.App 28 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.531 DEBUG com.tz.leo.log.App 29 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.531 DEBUG com.tz.leo.log.App 30 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.533 DEBUG com.tz.leo.log.App 31 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.534 DEBUG com.tz.leo.log.App 27 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.534 DEBUG com.tz.leo.log.App 28 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.534 DEBUG com.tz.leo.log.App 29 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.535 DEBUG com.tz.leo.log.App 30 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.535 DEBUG com.tz.leo.log.App 31 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.535 DEBUG com.tz.leo.log.App 27 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.536 DEBUG com.tz.leo.log.App 28 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.536 DEBUG com.tz.leo.log.App 29 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.536 DEBUG com.tz.leo.log.App 30 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.536 DEBUG com.tz.leo.log.App 31 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.537 DEBUG com.tz.leo.log.App 27 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.537 DEBUG com.tz.leo.log.App 28 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.537 DEBUG com.tz.leo.log.App 29 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.538 DEBUG com.tz.leo.log.App 30 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.538 DEBUG com.tz.leo.log.App 31 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.538 DEBUG com.tz.leo.log.App 27 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.538 DEBUG com.tz.leo.log.App 28 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.539 DEBUG com.tz.leo.log.App 29 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.539 DEBUG com.tz.leo.log.App 30 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.545 DEBUG com.tz.leo.log.App 31 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.546 DEBUG com.tz.leo.log.App 27 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.546 DEBUG com.tz.leo.log.App 28 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.546 DEBUG com.tz.leo.log.App 29 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.546 DEBUG com.tz.leo.log.App 30 main - Log4j2__ RollingFile 调试debug信息
+17:27:42.548 DEBUG com.tz.leo.log.App 31 main - Log4j2__ RollingFile 调试debug信息

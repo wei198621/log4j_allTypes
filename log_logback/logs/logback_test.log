@@ -1,0 +1,4 @@
+2020-07-20 17:36:18,794 [main] DEBUG com.tz.leo.log.App [App.java : 17] - Logback__调试debug信息
+2020-07-20 17:36:18,801 [main] INFO  com.tz.leo.log.App [App.java : 18] - Logback__普通Info信息
+2020-07-20 17:36:18,802 [main] WARN  com.tz.leo.log.App [App.java : 19] - Logback__警告warn信息
+2020-07-20 17:36:18,802 [main] ERROR com.tz.leo.log.App [App.java : 20] - Logback__报错error信息

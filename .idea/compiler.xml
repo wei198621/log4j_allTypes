@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="log4j" />
+        <module name="log4j2" />
+        <module name="log4j2_slf4j" />
+        <module name="logback" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="log4j" target="1.7" />
+      <module name="log4j2" target="1.7" />
+      <module name="log4j2_slf4j" target="1.7" />
+      <module name="log4j_slf4j" target="1.7" />
+      <module name="logback" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

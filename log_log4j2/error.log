@@ -1,0 +1,8 @@
+2020.07.20 at 14:24:35 CST ERROR com.tz.leo.log.App 21 main - Log4j2__报错error信息
+2020.07.20 at 14:24:35 CST FATAL com.tz.leo.log.App 22 main - Log4j2__严重错误fatal信息
+2020.07.20 at 14:25:40 CST ERROR com.tz.leo.log.App 21 main - Log4j2__报错error信息
+2020.07.20 at 14:25:40 CST FATAL com.tz.leo.log.App 22 main - Log4j2__严重错误fatal信息
+2020.07.20 at 15:52:16 CST ERROR com.tz.leo.log.App 21 main - Log4j2__报错error信息
+2020.07.20 at 15:52:16 CST FATAL com.tz.leo.log.App 22 main - Log4j2__严重错误fatal信息
+2020.07.20 at 17:27:42 CST ERROR com.tz.leo.log.App 21 main - Log4j2__报错error信息
+2020.07.20 at 17:27:42 CST FATAL com.tz.leo.log.App 22 main - Log4j2__严重错误fatal信息

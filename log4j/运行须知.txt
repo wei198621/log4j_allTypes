@@ -1,0 +1,19 @@
+
+1. 配置文件名称
+      resources/log4j.properties
+2. 导入jar包
+    <!--log4j只有一个引用-->
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+    </dependency>
+
+3. 打印日志
+     按照本示例log4j.properties 中的配置，会打印到程序根目录 的同级目录 名为 log_log4j 的文件夹下
+
+4. main 函数 中的静态函数
+    private static org.apache.log4j.Logger logger= org.apache.log4j.Logger.getLogger(App.class);  // 获取logger实例
+
+
+

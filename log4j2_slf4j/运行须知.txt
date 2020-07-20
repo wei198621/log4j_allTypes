@@ -1,0 +1,109 @@
+
+1. 配置文件名称
+      resources/log4j2.xml
+
+
+2、 依赖
+        日志的环境依赖总共有4部分，分别是 2.1  slf4j接口部分， 2.2 log4j2的日志框架实现部分(3个)， 2.3 log4j2异步日志插件部分  2.4 slf4j与log4j2的桥接部分。
+  part         包名 	            作用
+  2.1      slf4j-api 	        目前的版本1.7就可。slf4j的接口包，我们对日志进行的所有操作都用的是这个包的API
+  2.2      log4j-core 	        版本必须在2.1以上，是log4j2的核心包
+  2.2      log4j-api 	        版本与核心包一致，log4j2的接口包，用来直接调用log4j2框架的，必须导入，不然无法与slf4j对接
+  2.2      log4j-web 	        版本与核心包一致，用于web项目的log4j2，阻止web项目出现警告
+  2.3      com.lmax.disruptor 	版本随意，开启log4j2的异步日志记录的功能
+  2.4      log4j-slf4j-impl 	版本与核心包一致，用于slf4j与log4j对接，即用slf4j的接口实现操作日志
+
+<properties>
+        <log4j2.version>2.11.2</log4j2.version>
+        <slf4j.version>1.7.28</slf4j.version>
+    </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j2.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>${log4j2.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-web -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-web</artifactId>
+            <version>${log4j2.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.lmax/disruptor -->
+        <dependency>
+            <groupId>com.lmax</groupId>
+            <artifactId>disruptor</artifactId>
+            <version>3.4.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+            <version>${log4j2.version}</version>
+        </dependency>
+    </dependencies>
+————————————————
+版权声明：本文为CSDN博主「MemoForward」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/qq_34294121/java/article/details/100111995
+
+
+
+3. 打印日志
+     按照本示例 log4j2.xml 中的配置，会打印到程序根目录 的同级目录 名为 log_log4j2 的文件夹下
+
+4. main 函数 中的静态函数
+    import org.slf4j.Logger;
+    import org.slf4j.LoggerFactory;
+    private static Logger logger= LogManager.getLogger(App.class);
+
+
+
+
+
+
+*************************************************************************************************
+
+
+
+
+https://blog.csdn.net/zwj1030711290/article/details/81010320
+
+log4j2优点
+1. 解决死锁问题
+2. 多线程，性能提升10倍
+
+https://www.cnblogs.com/KylinBlog/p/7841217.html
+
+
+1、配置文件类型
+
+             log4j是通过一个.properties的文件作为主配置文件的，而现在的log4j 2则已经弃用了这种方式，采用的是.xml，.json或者.jsn这种方式来做，
+             可能这也是技术发展的一个必然性，毕竟properties文件的可阅读性真的是有点差。
+
+2、核心JAR包
+            log4j只需要引入一个jar包即可，
+            而log4j2则是需要2个核心
+
+3、文件渲染
+                log4j2就比较简单，以maven工程为例，我们只需要把log4j2.xml放到工程resource目录下就行了。
+                大家记住一个细节点，是log4j2.xml，而不是log4j.xml，xml名字少个2都不行！！
+
+4、Log调用
+            log4j2：
+            import org.apache.logging.log4j.Logger;
+            import org.apache.logging.log4j.LogManager;
+            private static Logger logger = LogManager.getLogger(Test.class.getName());
