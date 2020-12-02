@@ -1,6 +1,0 @@
-[17:29:23:706] [INFO] - com.tz.leo.log.App.main(App.java:19) - ********************************************
-[17:29:23:716] [INFO] - com.tz.leo.log.App.main(App.java:20) - ***********   logged by  slf4j  log4j2   *********
-[17:29:23:716] [INFO] - com.tz.leo.log.App.main(App.java:22) - 普通Info信息
-[17:29:23:716] [WARN] - com.tz.leo.log.App.main(App.java:23) - 警告warn信息
-[17:29:23:717] [ERROR] - com.tz.leo.log.App.main(App.java:24) - 报错error信息
-[17:29:23:730] [INFO] - com.tz.leo.log.App.main(App.java:37) - ********************************************

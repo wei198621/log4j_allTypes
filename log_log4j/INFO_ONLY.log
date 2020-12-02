@@ -1,3 +1,0 @@
-2020-07-20 13:46:06,120 [main] WARN  [com.tz.leo.log.App] - 警告warn信息
-2020-07-20 13:46:06,120 [main] ERROR [com.tz.leo.log.App] - 报错error信息
-2020-07-20 13:46:06,120 [main] FATAL [com.tz.leo.log.App] - 严重错误fatal信息

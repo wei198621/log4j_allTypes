@@ -1,0 +1,57 @@
+22:58:13.300 INFO  com.tz.leo.log.App 19 main - ********************************************
+22:58:13.303 INFO  com.tz.leo.log.App 20 main - ***********   logged by  slf4j  log4j2   *********
+22:58:13.313 DEBUG com.tz.leo.log.App 21 main - 调试debug信息
+22:58:13.313 INFO  com.tz.leo.log.App 22 main - 普通Info信息
+22:58:13.313 WARN  com.tz.leo.log.App 23 main - 警告warn信息
+22:58:13.313 ERROR com.tz.leo.log.App 24 main - 报错error信息
+22:58:13.314 DEBUG com.tz.leo.log.App 29 main -  RollingFile 调试debug信息
+22:58:13.314 DEBUG com.tz.leo.log.App 30 main -  RollingFile 调试debug信息
+22:58:13.314 DEBUG com.tz.leo.log.App 31 main -  RollingFile 调试debug信息
+22:58:13.314 DEBUG com.tz.leo.log.App 32 main -  RollingFile 调试debug信息
+22:58:13.314 DEBUG com.tz.leo.log.App 33 main -  RollingFile 调试debug信息
+22:58:13.314 DEBUG com.tz.leo.log.App 29 main -  RollingFile 调试debug信息
+22:58:13.314 DEBUG com.tz.leo.log.App 30 main -  RollingFile 调试debug信息
+22:58:13.314 DEBUG com.tz.leo.log.App 31 main -  RollingFile 调试debug信息
+22:58:13.315 DEBUG com.tz.leo.log.App 32 main -  RollingFile 调试debug信息
+22:58:13.315 DEBUG com.tz.leo.log.App 33 main -  RollingFile 调试debug信息
+22:58:13.315 DEBUG com.tz.leo.log.App 29 main -  RollingFile 调试debug信息
+22:58:13.315 DEBUG com.tz.leo.log.App 30 main -  RollingFile 调试debug信息
+22:58:13.315 DEBUG com.tz.leo.log.App 31 main -  RollingFile 调试debug信息
+22:58:13.319 DEBUG com.tz.leo.log.App 32 main -  RollingFile 调试debug信息
+22:58:13.319 DEBUG com.tz.leo.log.App 33 main -  RollingFile 调试debug信息
+22:58:13.319 DEBUG com.tz.leo.log.App 29 main -  RollingFile 调试debug信息
+22:58:13.319 DEBUG com.tz.leo.log.App 30 main -  RollingFile 调试debug信息
+22:58:13.319 DEBUG com.tz.leo.log.App 31 main -  RollingFile 调试debug信息
+22:58:13.319 DEBUG com.tz.leo.log.App 32 main -  RollingFile 调试debug信息
+22:58:13.319 DEBUG com.tz.leo.log.App 33 main -  RollingFile 调试debug信息
+22:58:13.319 DEBUG com.tz.leo.log.App 29 main -  RollingFile 调试debug信息
+22:58:13.320 DEBUG com.tz.leo.log.App 30 main -  RollingFile 调试debug信息
+22:58:13.320 DEBUG com.tz.leo.log.App 31 main -  RollingFile 调试debug信息
+22:58:13.320 DEBUG com.tz.leo.log.App 32 main -  RollingFile 调试debug信息
+22:58:13.320 DEBUG com.tz.leo.log.App 33 main -  RollingFile 调试debug信息
+22:58:13.320 DEBUG com.tz.leo.log.App 29 main -  RollingFile 调试debug信息
+22:58:13.320 DEBUG com.tz.leo.log.App 30 main -  RollingFile 调试debug信息
+22:58:13.321 DEBUG com.tz.leo.log.App 31 main -  RollingFile 调试debug信息
+22:58:13.321 DEBUG com.tz.leo.log.App 32 main -  RollingFile 调试debug信息
+22:58:13.321 DEBUG com.tz.leo.log.App 33 main -  RollingFile 调试debug信息
+22:58:13.321 DEBUG com.tz.leo.log.App 29 main -  RollingFile 调试debug信息
+22:58:13.321 DEBUG com.tz.leo.log.App 30 main -  RollingFile 调试debug信息
+22:58:13.321 DEBUG com.tz.leo.log.App 31 main -  RollingFile 调试debug信息
+22:58:13.321 DEBUG com.tz.leo.log.App 32 main -  RollingFile 调试debug信息
+22:58:13.321 DEBUG com.tz.leo.log.App 33 main -  RollingFile 调试debug信息
+22:58:13.321 DEBUG com.tz.leo.log.App 29 main -  RollingFile 调试debug信息
+22:58:13.322 DEBUG com.tz.leo.log.App 30 main -  RollingFile 调试debug信息
+22:58:13.322 DEBUG com.tz.leo.log.App 31 main -  RollingFile 调试debug信息
+22:58:13.322 DEBUG com.tz.leo.log.App 32 main -  RollingFile 调试debug信息
+22:58:13.322 DEBUG com.tz.leo.log.App 33 main -  RollingFile 调试debug信息
+22:58:13.322 DEBUG com.tz.leo.log.App 29 main -  RollingFile 调试debug信息
+22:58:13.322 DEBUG com.tz.leo.log.App 30 main -  RollingFile 调试debug信息
+22:58:13.322 DEBUG com.tz.leo.log.App 31 main -  RollingFile 调试debug信息
+22:58:13.322 DEBUG com.tz.leo.log.App 32 main -  RollingFile 调试debug信息
+22:58:13.322 DEBUG com.tz.leo.log.App 33 main -  RollingFile 调试debug信息
+22:58:13.323 DEBUG com.tz.leo.log.App 29 main -  RollingFile 调试debug信息
+22:58:13.323 DEBUG com.tz.leo.log.App 30 main -  RollingFile 调试debug信息
+22:58:13.323 DEBUG com.tz.leo.log.App 31 main -  RollingFile 调试debug信息
+22:58:13.323 DEBUG com.tz.leo.log.App 32 main -  RollingFile 调试debug信息
+22:58:13.323 DEBUG com.tz.leo.log.App 33 main -  RollingFile 调试debug信息
+22:58:13.323 INFO  com.tz.leo.log.App 37 main - ********************************************

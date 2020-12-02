@@ -1,0 +1,4 @@
+[22:57:59:228] [WARN] - com.tz.leo.log.App.main(App.java:23) - 警告warn信息
+[22:57:59:228] [ERROR] - com.tz.leo.log.App.main(App.java:24) - 报错error信息
+[22:58:13:313] [WARN] - com.tz.leo.log.App.main(App.java:23) - 警告warn信息
+[22:58:13:313] [ERROR] - com.tz.leo.log.App.main(App.java:24) - 报错error信息

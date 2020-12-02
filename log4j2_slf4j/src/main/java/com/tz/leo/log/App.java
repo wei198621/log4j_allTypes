@@ -11,7 +11,7 @@ public class App
     // import org.slf4j.Logger;
     // import org.slf4j.LoggerFactory;
     // private static final Logger logger = LoggerFactory.getLogger("AsyncLogger");
-    private static final Logger logger = LoggerFactory.getLogger(App.class);
+    private static Logger logger = LoggerFactory.getLogger(App.class);
 
     public static void main( String[] args )
     {

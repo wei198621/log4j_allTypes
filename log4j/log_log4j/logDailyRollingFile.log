@@ -1,0 +1,58 @@
+2020-12-02 22:40:48,343 [main] INFO  [com.tz.leo.log.App] - ********************************************
+2020-12-02 22:40:48,344 [main] INFO  [com.tz.leo.log.App] - *********** logged by log4j *********
+2020-12-02 22:40:48,345 [main] DEBUG [com.tz.leo.log.App] - 调试debug信息
+2020-12-02 22:40:48,345 [main] INFO  [com.tz.leo.log.App] - 普通Info信息
+2020-12-02 22:40:48,345 [main] WARN  [com.tz.leo.log.App] - 警告warn信息
+2020-12-02 22:40:48,345 [main] ERROR [com.tz.leo.log.App] - 报错error信息
+2020-12-02 22:40:48,345 [main] FATAL [com.tz.leo.log.App] - 严重错误fatal信息
+2020-12-02 22:40:48,346 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,346 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,347 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,347 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,347 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,347 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,349 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,349 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,350 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,350 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,350 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,350 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,352 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,352 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,353 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,353 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,353 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,353 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,353 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,355 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,355 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,355 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,355 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,355 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,355 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,355 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,356 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,356 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,356 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,356 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,356 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,356 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,358 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,359 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,359 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,359 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,359 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,359 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,359 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,361 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,361 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,361 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,361 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,361 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,361 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,367 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,367 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,367 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,367 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,367 [main] DEBUG [com.tz.leo.log.App] -  RollingFile 调试debug信息
+2020-12-02 22:40:48,367 [main] INFO  [com.tz.leo.log.App] - ********************************************

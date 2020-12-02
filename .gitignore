@@ -3,6 +3,7 @@
 /*.iml
 /target
 /.gradle
+/log_*
 #用于忽略父子项目
 */.idea
 */*.iml

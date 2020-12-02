@@ -1,8 +1,0 @@
-[17:23:33:330] [WARN] - com.tz.leo.log.App.main(App.java:23) - 警告warn信息
-[17:23:33:331] [ERROR] - com.tz.leo.log.App.main(App.java:24) - 报错error信息
-[17:25:14:496] [WARN] - com.tz.leo.log.App.main(App.java:23) - 警告warn信息
-[17:25:14:496] [ERROR] - com.tz.leo.log.App.main(App.java:24) - 报错error信息
-[17:26:16:771] [WARN] - com.tz.leo.log.App.main(App.java:23) - 警告warn信息
-[17:26:16:772] [ERROR] - com.tz.leo.log.App.main(App.java:24) - 报错error信息
-[17:29:23:716] [WARN] - com.tz.leo.log.App.main(App.java:23) - 警告warn信息
-[17:29:23:717] [ERROR] - com.tz.leo.log.App.main(App.java:24) - 报错error信息
